@@ -2,6 +2,8 @@ package com.belov.web;
 
 import com.belov.persistence.model.Book;
 import com.belov.persistence.repo.BookRepository;
+import com.belov.web.exception.BookIdMismatchException;
+import com.belov.web.exception.BookNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
